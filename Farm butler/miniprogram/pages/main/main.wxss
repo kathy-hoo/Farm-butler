@@ -1,0 +1,171 @@
+/* pages/main/main.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.weather{
+  width:100%;
+  height:300rpx;
+  background-color: #2dc435;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius:20rpx;
+  color:#fff;
+}
+.citdat{
+  width:100%;
+  height:20%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.city{
+  width:30%;
+  height:100%;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row; 
+}
+.location{
+  width:30rpx;
+  height:40rpx;
+  margin-right:10rpx;
+}
+.date{
+  width:60%;
+  height:100%;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weaout{
+  width:100%;
+  height:80%;
+}
+.temperature{
+  width:100%;
+  height:70%;
+  font-size: 65rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weain{
+  width:100%;
+  height:30%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.weatherDesc{
+  width:30%;
+  height:100%;
+  font-size: 35rpx;
+  text-align: center;
+}
+.box{
+  width:100%;
+  margin-top: 20rpx;
+}
+.link{
+  background-color: #fff;
+  width:95%;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.searchicon {
+  margin-top: 12rpx;
+  margin-bottom: 10rpx;
+  margin-left:30rpx;
+  width: 6%;
+  height: 100%;
+  text-align: center;
+}
+.put{
+  margin-left: 10rpx;
+}
+.calendar_box{
+  width:95%;
+  background: #fff;
+  border-radius: 20rpx;
+  border-top: 10rpx groove #2dc435;
+  font-family: FZZhunYuan-M02S;
+  margin:30rpx 20rpx;
+  margin-right: 20rpx;
+}
+.calendar_title{
+  width: 70%;  
+  display: flex;
+  flex-direction: row;
+  margin-left: 110rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+  justify-content: space-between;
+  font-size: 40rpx;
+  color: #000;
+  
+  }
+.icon{
+  width:45rpx;
+  height:45rpx;
+}
+.f1{
+  width:45rpx;
+  height:45rpx;
+}
+.header{
+  font-size: 0;
+  width: 80%;
+  margin: 0 auto;
+  }
+.header>view{
+  display: inline-block;
+  width: 14.285%;
+  color: #666;font-size: 30rpx;
+  text-align: center;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 20rpx 0;
+  }
+.weekMark{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  }
+.weekMark view{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #69f;
+  }
+.date-box{
+  font-size: 0;
+  padding: 10rpx 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.date-box>view{
+  position: relative;
+  display: inline-block;
+  width: 14.285%;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
+  }
+.date-head{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 12pt;
+  }
+.nowDay .date-head{
+  width: 60rpx;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: #ff9933;
+  margin: 0 auto;
+  }

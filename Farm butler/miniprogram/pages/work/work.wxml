@@ -1,0 +1,37 @@
+<!--pages/work/work.wxml-->
+<view class="weui-navbar">
+  <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+      <view class="weui-navbar__title">{{item}}</view>
+    </view>
+  </block>
+</view>
+<view class="weui-tab__panel">
+  <view class="weui-tab__content">
+    <view classs='header'></view>
+    <block class='content_list' wx:for='{{works}}' wx:key=''>
+      <view class='content'>
+        <view class='picture'><image class='img' src='/images/workpage/issue.png'></image></view>
+        <view class='word'>
+          <view class='top'>
+            <view class='left'>
+              <view class='item'>任务：{{item.workname}}</view>
+              <view class='item'>地块：{{item.workfield}}</view>
+            </view>
+            <view class='right'>
+              <view class='item'>开始时间：{{item.workstart_date}}</view>
+              <view class='item'>结束时间：{{item.workend_date}}</view>
+            </view>
+          </view>
+          <view class='bottom'>
+            <view class='delete' data-id='{{item._id}}' bindtap='del'><image class='icon' src='/images/farmpage/delete.png'></image></view>  
+          </view>
+      </view>
+        </view>  
+    </block>
+    <view classs='bottom'></view>
+  </view>
+</view>
+<view class='float'>
+  <image class='add' bindtap='addwork' src='/images/workpage/add.png'></image>
+</view>

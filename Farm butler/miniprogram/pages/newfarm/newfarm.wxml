@@ -1,0 +1,24 @@
+<!--pages/newfarm/newfarm.wxml-->
+<view class='form'>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class='form_content'>
+      <view class='field'>
+        <view class='wn_text'>地块名称</view>
+        <view class='wn2'>
+          <input style='display:none' data-value='{{id}}' name="id" value='{{field._id}}'></input>
+          <input name='fieldname' class='wn_put' value='{{field.fieldname}}' placeholder="请输入地块名称"/>
+        </view>
+      </view>
+      <view class='field'>
+        <view class='wn_text'>作物名称</view>
+        <view class='wn2'>
+          <input name='fieldplant' class='wn_put' value='{{field.fieldplant}}' placeholder="请输入作物名称"/>
+        </view>
+      </view>
+    </view>
+    <view class='btn'>
+      <button size='default' type='primary' form-type='submit' class='comfire'>确认</button>
+      <button size='default' type='warn' form-type='reset' class='cancle'>取消</button>
+    </view>
+  </form>
+</view>

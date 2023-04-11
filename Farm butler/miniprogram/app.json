@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/main/main",
+    "pages/work/work",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/farm/farm",
+    "pages/newwork/newwork",
+    "pages/newfarm/newfarm",
+    "pages/information/information",
+    "pages/message/message",
+    "pages/setting/setting",
+    "pages/function/function",
+    "pages/opinion/opinion",
+    "pages/forecast/forecast"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2dc435",
+    "navigationBarTitleText": "农场管家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cfcdcd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "images/tabline/home.png",
+        "selectedIconPath": "images/tabline/home_highlight.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "iconPath": "images/tabline/work.png",
+        "selectedIconPath": "images/tabline/work_hover.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/farm/farm",
+        "iconPath": "images/tabline/farm.png",
+        "selectedIconPath": "images/tabline/farm_hover.png",
+        "text": "农场"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabline/setting.png",
+        "selectedIconPath": "images/tabline/setting_highlight.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

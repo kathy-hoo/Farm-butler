@@ -1,0 +1,36 @@
+/* pages/opinion/opinion.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.words{
+  width:100%;
+  padding:22rpx;
+}
+.border{
+  width:91%;
+  border:2rpx solid  #2dc435;
+  padding:8rpx;
+  padding-bottom:30rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.textword{
+  width:99.5%;
+  overflow: hidden;
+  position:relative;
+  font-size: 40rpx;
+}
+.number{
+  font-size: 28rpx;
+  color: gray;
+  position: absolute;
+  left: 593rpx;
+  top: 325rpx;
+}
+.button{
+  width:93.5%;
+}
+.submit{
+  margin-top:50rpx;
+  width:100%;
+}

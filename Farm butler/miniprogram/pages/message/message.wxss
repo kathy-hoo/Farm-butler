@@ -1,0 +1,27 @@
+/* pages/message/message.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.error{
+  width:100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.con{
+  margin-top:370rpx;
+  width:210rpx;
+}
+.error_picture{
+  width:170rpx;
+  height:210rpx;
+  margin-left:20rpx;
+}
+.text{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}

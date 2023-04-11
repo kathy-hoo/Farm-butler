@@ -1,0 +1,118 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "appid": "wx9962359bb3241574",
+  "projectname": "Farm%20butler",
+  "libVersion": "2.2.5",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "main",
+          "pathName": "pages/main/main",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "search",
+          "pathName": "pages/search/search",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "work",
+          "pathName": "pages/work/work",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "farm",
+          "pathName": "pages/farm/farm",
+          "query": ""
+        },
+        {
+          "id": 4,
+          "name": "newfarm",
+          "pathName": "pages/newfarm/newfarm",
+          "query": "id=XIHE_JT75u22bgNI",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "newwork",
+          "pathName": "pages/newwork/newwork",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "information",
+          "pathName": "pages/information/information",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "my",
+          "pathName": "pages/my/my",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "forecast",
+          "pathName": "pages/forecast/forecast",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

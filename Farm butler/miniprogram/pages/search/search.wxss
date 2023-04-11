@@ -1,0 +1,85 @@
+/* pages/search/search.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.box{
+  width:100%;
+  margin-top: 20rpx;
+}
+.link{
+  background-color: #fff;
+  width:94%;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.searchicon {
+  margin-top: 12rpx;
+  margin-bottom: 10rpx;
+  margin-left:30rpx;
+  width: 6%;
+  height: 100%;
+  text-align: center;
+}
+.put{
+  margin-left: 15rpx;
+  width:460rpx;
+  caret-color:#2dc435;
+}
+.clearicon{
+  position:absolute;
+  margin-left:542rpx ;
+  margin-right: 50rpx;
+  margin-top:14rpx;
+  width:6%;
+  text-align: center;
+}
+.click{
+  width:13%;
+  height:40rpx;
+  border-radius: 0;
+  border-left:1rpx solid #acb1ad;
+  margin-top: 10rpx;
+  margin-left:50rpx;
+  background-color:#fff;
+}
+button::after {
+  border-radius: 0;
+	border: none; 
+}
+.word{
+  position:fixed;
+  width:60rpx;
+  font-size: 30rpx;
+  line-height: 62rpx;
+  left:632rpx;
+  color:#2dc435;
+}
+.border{
+  width:100%;
+  height:100%;
+}
+.res{
+  width:100%;
+  margin-top:20rpx;
+}
+.show{
+  background-color: #fff;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.res{
+  width:100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.farm{
+  height:100rpx;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

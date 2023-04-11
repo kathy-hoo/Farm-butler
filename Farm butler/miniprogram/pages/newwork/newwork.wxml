@@ -1,0 +1,39 @@
+<!--pages/newwork/newwork.wxml-->
+<view class='form'>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class='form_content'>
+    <view class='workname'>
+      <view class='wn_text'>任务名称</view>
+      <view class='wn2'>
+        <input style='display:none' name="id" value='{{work._id}}'></input>
+        <input name='workname' class='wn_put' placeholder="请输入任务名称"/>
+      </view>
+    </view>
+    <view class='workname'>
+      <view class='wn_text'>任务地块</view>
+      <picker name='workfield' class='wn2' bindchange="bindPickerChange" value="{{index}}" range="{{array}}" range-key="fieldname">
+        <input hidden="{{reply1}}" value='{{array[index]["fieldname"]}}' class="wf_show"/>
+        <input hidden="{{reply2}}" disabled class='ws_put' placeholder="请输入任务地块"/>
+      </picker>
+    </view>
+    <view class='workname'>
+      <view class='wn_text'>开始时间</view>
+      <picker name='workstart' class='wn2' mode="date" value="{{date}}" start="2019-01-01" end="2070-12-31" bindchange="bindDateChange1">
+        <input hidden="{{reply3}}" value='{{date1}}' class="picker"/>
+        <input hidden="{{reply4}}" disabled class='ws_put' placeholder="请输入开始时间"/>
+      </picker>   
+    </view>
+    <view class='worktime'>
+      <view class='wn_text'>结束时间</view>
+      <picker name='workend' class='wn2' mode="date" value="{{date}}" start="2019-01-01" end="2070-12-31" bindchange="bindDateChange2">
+        <input hidden="{{reply5}}" value='{{date2}}' class="picker"/>
+        <input hidden="{{reply6}}" disabled class='ws_put' placeholder="请输入结束时间"/>
+      </picker>   
+    </view>
+  </view>
+  <view class='btn'>
+    <button size='default' type='primary' form-type='submit' class='comfire'>确认</button>
+    <button size='default' type='warn' form-type='reset' class='cancle'>取消</button>
+  </view>
+</form>
+</view>

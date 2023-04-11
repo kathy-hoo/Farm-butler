@@ -1,0 +1,7 @@
+<!--pages/setting/setting.wxml-->
+<view class='list'>
+  <navigator class='setlist' wx:for='{{list}}' url='{{item.page}}'>
+    <text class="set_title">{{item.title}}</text>
+    <image class="set_arrow" src="/images/mypage/arrow-right.png"></image>
+  </navigator>
+</view>

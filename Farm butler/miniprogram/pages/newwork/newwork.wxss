@@ -1,0 +1,49 @@
+/* pages/newwork/newwork.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.form{
+  width:100%;
+  margin-top: 10rpx;
+  
+}
+.form_content{
+  width:100%;
+  background-color: #fff;
+  border-top:2rpx solid #d2d6d2;
+  border-bottom:2rpx solid #d2d6d2;
+}
+.workname{
+  width:96%;
+  margin-left: 15rpx;
+  display: flex;
+  flex-direction: row;
+  padding:15rpx 0 15rpx 0;
+  border-bottom:2rpx solid #d2d6d2;
+}
+.wn_text{
+  color: #2dc435;
+}
+.wn2{
+  margin-left:30rpx;
+  width:530rpx;
+}
+.worktime{
+  width:96%;
+  margin-left: 15rpx;
+  display: flex;
+  flex-direction: row;
+  padding:15rpx 0 15rpx 0;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  margin-top:50rpx;
+}
+.comfire{
+  width:30%;
+}
+.cancle{
+  width:30%;
+}
+

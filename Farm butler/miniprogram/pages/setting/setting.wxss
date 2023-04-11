@@ -1,0 +1,27 @@
+/* pages/setting/setting.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.list{
+  margin-top: 10rpx;
+  background-color: #fff;
+  border:2rpx solid #d2d6d2;
+  padding-left:20rpx;
+  padding-right: 20rpx;
+}
+.setlist{
+  display:flex;
+  flex-wrap:nowrap;
+  align-items: center;
+  height: 50px;
+  border-bottom:2rpx solid #d2d6d2;
+}
+.set_title{
+  font-size: 15px;
+  flex: 1 0 45%;
+  color: #515151;
+}
+.set_arrow{
+  width: 20px;
+  height: 20px;
+}

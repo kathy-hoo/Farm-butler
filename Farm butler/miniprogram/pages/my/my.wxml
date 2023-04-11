@@ -1,0 +1,25 @@
+<!--pages/my/my.wxml-->
+<view class='my_bg'></view>
+<view class='my_header'>
+  <view class="userinfo">
+    <button
+      class="userinfo-avatar"
+      wx:if="{{!hasUserInfo && canIUse}}"
+      open-type="getUserInfo"
+      bindgetuserinfo="getUserInfo"
+    ></button> 
+    <block wx:else> 
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> 
+  </view> 
+</view>
+<view class='my_body'>
+  <view class='my_content' >
+    <navigator class="content_line" wx:for='{{list}}' url="{{item.page}}">
+      <image class="content_label" src='{{item.img}}'></image>
+      <text class="content_title">{{item.title}}</text>
+      <image class="content_arrow" src="/images/mypage/arrow-right.png"></image>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+/* pages/function/function.wxss */
+page{
+  background-color: #ecf3ed;
+}
+.line{
+  padding:30rpx;
+}
+.introduce{
+  width:90%;
+  margin-top:20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding:30rpx;
+  border:5rpx solid #2dc435;
+}
+.word{
+  font-size: 35rpx;
+  text-indent: 20rpx;
+}

@@ -1,0 +1,7 @@
+<!--pages/message/message.wxml-->
+<view class='error'>
+  <view class='con'>
+    <image class='error_picture' src='/images/messagepage/no.png'></image>
+    <view class='text'>当前没有消息</view>
+  </view>
+</view>
